@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viatek-test</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <!-- HEADER - TOP -->
+        <nav class="header-nav">
+            <div class="header-nav-wrapper container">
+                <div class="loc-menu-wrapper">
+                    <img src="./icons/loc-nav.svg" alt="">
+                    <label for="locMenu-btn" class="loc-menu__btn">Москва</label>
+                    <input id="locMenu-btn" class="input-none" type="checkbox">
+
+                    <!-- LOCATION - MENU -->
+                    <div class="loc-menu__list-wrapper">
+                        <div class="loc-menu__exit-wrapper">
+                            <label for="locMenu-btn" class="exit-btn">
+                                <span></span>
+                            </label>
+                        </div>
+                        <ul class="loc-menu__list">
+                            <li>Петербург</li>
+                            <li>Волгоград</li>
+                            <li>Казань</li>
+                            <li>......</li>
+                            <li>......</li>
+                            <li>......</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- --------- -->
+                <!-- nav - phone - menu -->
+                <div class="nav__phone-menu">
+                    <div class="nav-phone_call">
+                        <img src="./icons/phone_white.svg" alt="">
+                    </div>
+                    <div class="nav__phone-number">+7 910 360 63 92</div>
+                    <div class="nav__pop-up-btn">
+                        <input id="nav-phone-btn" type="checkbox" class="input-none">
+                        <label for="nav-phone-btn" class="nav-phone-label">
+                        </label>
+                        <div class="phone__pop-up-wrapper">
+                            <ul class="phone-list">
+                                <li>+7 910 360 63 92</li>
+                                <li>+7 910 360 63 92</li>
+                                <li>.......</li>
+                                <li>.......</li>
+                                <li>.......</li>
+                                <li>.......</li>
+                                <li>.......</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- --------- -->
+
+                <div class="header-nav__list">
+                    <a href="./services.html" target="_parent">Услуги</a>
+                    <a href="./news.html" target="_parent">Новости</a>
+                    <a href="./gallery.html" target="_parent">Галерея</a>
+                    <div class="burger-wrapper">
+                        <label for="burger" class="burger-btn">
+                            <span></span>
+                        </label>
+                        <input id="burger" type="checkbox" class="input-none">
+                        <div class="burger-menu-wrapper">
+                            <div class="burger-menu__exit-wrapper">
+                                <label for="burger" class="exit-btn">
+                                    <span></span>
+                                </label>
+                            </div>
+                            <!-- BURGER - MENU - LIST -->
+                            <ul class="burger-menu-list">
+                                <li>
+                                    <div class="burger-list__dots"><span></span></div><a href="#">О компании</a>
+                                </li>
+                                <li>
+                                    <div class="burger-list__dots"><span></span></div><a
+                                        href="./services.html">Услуги</a>
+                                </li>
+                                <li>
+                                    <div class="burger-list__dots"><span></span></div><a
+                                        href="./gallery.html">Портфолио</a>
+                                </li>
+                                <li>
+                                    <div class="burger-list__dots"><span></span></div><a href="./news.html">Новости</a>
+                                </li>
+                                <li>
+                                    <div class="burger-list__dots"><span></span></div><a href="#">Контакты</a>
+                                </li>
+                                <li>
+                                    <div class="burger-list__dots"><span></span></div><a href="#">Документы</a>
+                                </li>
+                                <li>
+                                    <div class="burger-list__dots"><span></span></div><a href="#">Прайс</a>
+                                </li>
+                            </ul>
+                            <!--  BURGER - MENU - LIST - END -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- HEADER - BOTTOM -->
+        <div class="header-bottom">
+            <div class="container header-container">
+                <div class="header__logo-slogan">
+                    <div class="header__logo-wrapper">
+                        <a href="./home-page.html">
+                            <div class="header__logo">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="header__logo-name">
+                                viatek<span>sample</span>
+                            </div>
+                        </a>
+                    </div>
+                    <hr>
+                    <p>Мы не допускаем типовых решений,<br>
+                        нам интересно всякий раз создавать новое!</p>
+                </div>
+                <div class="header__field-wrapper">
+                    <input class="header__field" type="search" placeholder="Поиск">
+                    <input class="search-btn" type="button">
+                </div>
+                <div class="header__timing">
+                    График работы:<br><span>Пн-Пт, 9:00 - 18:00</span>
+                </div>
+                <div class="header__social">
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
+
+                <div class="header__phone-menu">
+                    <div class="phone-menu__call">
+                        <img src="./icons/phone-green.svg" alt="">
+                    </div>
+                    <div class="phone-number">+7 910 360 63 92</div>
+                    <div class="pop-up-btn">
+                        <input id="phone-btn" class="input-none" type="checkbox">
+                        <label for="phone-btn" class="phone-label">
+                        </label>
+                        <div class="phone__pop-up-wrapper">
+                            <ul class="phone-list">
+                                <li>+7 910 360 63 92</li>
+                                <li>+7 910 360 63 92</li>
+                                <li>.......</li>
+                                <li>.......</li>
+                                <li>.......</li>
+                                <li>.......</li>
+                                <li>.......</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!-- ------- -->
+
+    <main class="main">
+        <!-- PREVIEW - SECTION -->
+        <section class="preview container">
+            <div class="preview__content">
+                <h1>Создаем комфортную<br>
+                    среду в гармонии с<br>
+                    природой!
+                </h1>
+                <p class="preview__txt">Мы любим то, что делаем. В приоритете<br class="preview__txt_br1">
+                    комплексный уход за садом и любой озелененной<br class="preview__txt_br2">
+                    территорией.
+                </p>
+                <!-- FEEDBACK - MENU -->
+                <button id="open-modal-btn" class="call-btn">Вызвать дизайнера</button>
+                <div id="my-modal" class="modal-wrapper">
+                    <div class="modal__box">
+                        <div class="exit-btn-wrapper">
+                            <button class="exit-btn" id="close-my-modal-btn"><span></span></button>
+                        </div>
+                        <h1 class="modal__title">Заказать услугу</h1>
+                        <form action="#" class="form">
+                            <div class="input-wrapper">
+                                <input type="text" placeholder="Не определено">
+                                <button id="open-list-btn" class="chevron-btn">
+                                    <img src="./icons/chevron-down-green.svg" alt="#">
+                                </button>
+
+                                <!-- services-list -->
+                                <ul id="service" class="services-list">
+                                    <li>Не определено
+                                        <button id="close-list-btn" class="chevron-btn"><img
+                                                src="./icons/shevron-top-green.svg" alt=""></button>
+                                    </li>
+                                    <li>Вызов дизайнера</li>
+                                    <li>Ландшафтные работы</li>
+                                    <li>Озеленение участка</li>
+                                    <li>Устройство водоемов</li>
+                                    <li>Автоматический полив</li>
+                                    <li>Устройство газонов</li>
+                                </ul>
+                                <!-- ..>>><<<.. -->
+
+                            </div>
+                            <p class="form__text">
+                                <span>Спасибо, что обратились к нам!
+                                </span>Как только мы получим от вас сообщение, наши<br> менеджеры постараются в
+                                кратчайшие сроки
+                                дать
+                                вам<br> исчерпывающую информацию по всем вашим вопросам.
+                            </p>
+                            <div class="input-wrapper">
+                                <input type="name" placeholder="Ваше имя">
+                            </div>
+                            <div class="input-wrapper">
+                                <input type="tel" placeholder="+7 (___) ___ - __ - __">
+                            </div>
+                            <textarea name="#" id="#" cols="30" rows="10"
+                                placeholder="Дополнительная информация"></textarea>
+                            <div class="form__agree">
+                                <label class="switch">
+                                    <input type="checkbox" id="switch">
+                                    <span class="slider"></span>
+                                </label>
+                                <label for="switch" class="">
+                                    <p class="agree__text">
+                                        Я даю согласие на обработку персональных данных<span>
+                                            в<br>
+                                            соответствии с законодательством
+                                            Российской
+                                            Федерации.</span>
+                                    </p>
+                                </label>
+                            </div>
+                            <button class="submit-btn " type="submit">Вызвать дизайнера</button>
+                        </form>
+
+                    </div>
+                </div>
+                <!-- ------ -->
+                <div class="prev-dots">
+                    <label for="switch1"></label>
+                    <label for="switch2"></label>
+                    <label for="switch3"></label>
+                    <label for="switch4"></label>
+                </div>
+            </div>
+            <!-- SLIDER -->
+            <div class="prev-slider">
+                <input class="input-none" checked type="radio" name="prev-slider" id="prev-switch1">
+                <input class="input-none" type="radio" name="prev-slider" id="prev-switch2">
+                <input class="input-none" type="radio" name="prev-slider" id="prev-switch3">
+                <input class="input-none" type="radio" name="prev-slider" id="prev-switch4">
+                <div class="prev-slides">
+                    <div class="prev-overflow">
+                        <div class="prev-slider-inner">
+                            <div class="prev-slide">
+                                <img src="./images/preview-img1.png" alt="">
+                            </div>
+                            <div class="prev-slide">
+                                <img src="./images/preview-img1.png" alt="">
+                            </div>
+                            <div class="prev-slide">
+                                <img src="./images/preview-img1.png" alt="">
+                            </div>
+                            <div class="prev-slide">
+                                <img src="./images/preview-img1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="prev-arrows">
+                    <label for="prev-switch1"></label>
+                    <label for="prev-switch2"></label>
+                    <label for="prev-switch3"></label>
+                    <label for="prev-switch4"></label>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- SERVICES - SECTION -->
+        <section class="services-bg">
+            <div class="services container">
+                <h2>Наши услуги</h2>
+                <div class="services__images-wrapper">
+                    <div class="services__images">
+                        <div class="services__img-wrapper">
+                            <div class="services__img_shadow">
+                                <h5 class="services__img_title">Ландшафтные<br> работы</h5>
+                                <a class="services__img_btn" href="#">Заказать</a>
+                            </div>
+                            <img src="./images/servSectLandscap1.png" alt="">
+                        </div><!-- services__img-wrapper -->
+                        <div class="services__img-wrapper">
+                            <div class="services__img_shadow">
+                                <h5 class="services__img_title">Озеленение<br>
+                                    участка</h5>
+                                <a class="services__img_btn" href="#">Заказать</a>
+                            </div>
+                            <img src="./images/servSectGreening2.png" alt="">
+                        </div><!-- services__img-wrapper -->
+                        <div class="services__img-wrapper">
+                            <div class="services__img_shadow">
+                                <h5 class="services__img_title">Устройство<br> водоемов</h5>
+                                <a class="services__img_btn" href="#">Заказать</a>
+                            </div>
+                            <img src="./images/servSectReservoirs3.png" alt="">
+                        </div><!-- services__img-wrapper -->
+                        <div class="services__img-wrapper">
+                            <div class="services__img_shadow">
+                                <h5 class="services__img_title">Автоматический<br> полив</h5>
+                                <a class="services__img_btn" href="#">Заказать</a>
+                            </div>
+                            <img src="./images/servSectWatering4.png" alt="">
+                        </div><!-- services__img-wrapper -->
+                        <div class="services__img-wrapper">
+                            <div class="services__img_shadow">
+                                <h5 class="services__img_title">Устройство газонов</h5>
+                                <a class="services__img_btn" href="#">Заказать</a>
+                            </div>
+                            <img src="./images/servSectLawn-inst5.png" alt="">
+                        </div><!-- services__img-wrapper -->
+                    </div><!-- services__images -->
+                </div><!-- services__images-wrapper -->
+
+                <a class="main-link" href="#">Смотреть все услуги</a>
+        </section>
+
+
+        <!-- ABOUT - SECTION -->
+        <section class="about-bg">
+            <div class="about container">
+                <div class="about__dummy">
+                </div>
+                <div class="about__img-wrapper">
+                    <div class="about__img">
+                        <img src="./images/about-img.png" alt="">
+                    </div>
+                </div>
+                <div class="about__content-wrapper">
+                    <div class="about__content">
+                        <h2>О нас</h2>
+                        <div class="about__txt-wrapper">
+                            <p>Компания Green History образовалась в 2006 году на полном<br> энтузиазме и огромном
+                                увлечении в области ландшафтного дизайна.<br> Начало было положено, первыми заказчиками
+                                были
+                                знакомые и<br> родственники. С каждым шагом, с каждой книжкой, с каждым<br> проектом мы
+                                двигали наше
+                                общее дело дальше. Были у нас и<br> промахи, недочеты. Но мы взяли для себя
+                                принципиальность,
+                                что<br> клиент должен быть всегда доволен нашей работой — и мы<br> переделывали.
+                                Говорить о
+                                том, что
+                                мы заканчивали<br> специализированные высшие учебные заведение в области<br>
+                                ландшафтного
+                                дизайна,
+                                получали ученые степени — мы не станем.<br> Просто мы любим свое дело.<br><br>
+
+                                Каждый проект для нас — это возможность самореализовать себя как<br> профессионалов
+                                своего
+                                дела. Будь то, водоем или ручей, система<br> автоматического полива, подпорная стенка
+                                или
+                                мощение,<br> ландшафтная композиция из многолетних растений. Мы добиваемся<br>
+                                совершенства...<br><br>
+                                Мы не стесняемся исправлять ошибки за другими компаниями.<br> Ведь исправляя проблемные
+                                проекты,
+                                мы становимся еще опытнее.<br> А с профессионалами всегда приятнее работать. Ведь мы
+                                не<br>
+                                задаемлишних вопросов и делаем свое дело с любовью Многие<br> современные люди мечтают
+                                перебраться из душных городских<br> квартир поближе к природе, к чистому воздуху и
+                                нежному<br> щебетанию птиц. Но что делать, если абсолютно нет времени<br>
+                                заниматься обустройством дачи или коттеджа, придумывать дизайн<br> участка или
+                                высаживать
+                                растения на участке? Для этого можно<br> использовать возможности компаний-подрядчиков,
+                                посвящающих<br> себя реализации проектов ландшафтного дизайна для своих<br> клиентов.
+                                <br><br>
+                                Green History – это организация, которая была создана для решения<br> задач, связанных с
+                                ландшафтным дизайном. Мы готовы в любое<br> удобное для вас время выполнить работы по
+                                обустройству участков,<br> ландшафту или полном редизайне с задействованием
+                                современного<br>
+                                оборудования. Сотрудничая с нами, вы получаете гарантированно<br> качественный
+                                результат,
+                                достигаемый за четко оговоренные сроки.
+                                <br><br>
+                                В комплекс услуг Green History входят следующие мероприятия:<br><br>
+                                Ландшафтное проектирование участка с учетом потребностей<br> заказчика;<br><br>
+                                Работы по озеленению и обустройству газонов на участках;<br><br>
+                                Прокладка инфраструктуры или замена устаревших элементов<br> внешнего интерьера;<br><br>
+                                Монтаж современной системы полива для растений;<br><br>
+                                Обустройство водоемов, фонтанов и прудов;<br><br>
+                                Работы по обслуживанию реализованных проектов.
+                                Это далеко не весь<br> список тех задач, которые способны для вас решить специалисты<br>
+                                нашей
+                                компании. Для нас каждый проект дизайна участка является<br> уникальной возможностью
+                                решить
+                                ваши
+                                вопросы и удовлетворить<br> персональные потребности. Работа выполняется с соблюдением
+                                всех<br>
+                                требований безопасности, наши заказчики получают возможность<br> вносить корректировки
+                                на
+                                любом
+                                этапе выполнения проекта.
+                                <br><br>
+                                Что касается цен, то стоимость наших услуг представлена на<br> официальном сайте
+                                компании
+                                Green
+                                History. Вы удивитесь, насколько<br> доступными и выгодными оказываются услуги
+                                подрядчиков,<br>
+                                заботящихся о бюджете своих клиентов. Для нас каждый заказчик<br> представляет ценность,
+                                а
+                                потому мы готовы предоставить все свои<br> возможности для решения ваших задач.
+                                <br><br>
+                                На текущий момент мы реализовали уже несколько сотен уникальных<br> проектов и получили
+                                положительные отзывы от десятков довольных<br> клиентов. Если вам важно получить
+                                гарантированный
+                                результат, не<br> переплатив за него, то смело звоните нам по телефону и закажите<br>
+                                выезд
+                                специалиста на место. Мы докажем на деле, что ландшафтный<br> дизайн – это доступно и
+                                интересно!
+                            </p>
+                        </div>
+                        <div class="detail-btn">
+                            Подробнее
+                        </div>
+
+                    </div>
+                    <div class="about__content-dummy"></div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- NEWS - SECTION -->
+        <section class="news container">
+            <h2>Новости</h2>
+            <div class="news__cards-wrapper">
+                <div class="news__card">
+                    <span>8 мая 2024</span>
+                    <h4>Поздравляем всех с 9 мая!</h4>
+                    <a class="news-small-btn" href="#">подробнее</a>
+                </div>
+                <div class="news__card">
+                    <span>8 мая 2024</span>
+                    <h4>График работы на майские праздники</h4>
+                    <a class="news-small-btn" href="#">подробнее</a>
+                </div>
+                <div class="news__card">
+                    <span>8 мая 2024</span>
+                    <h4>У нас появилась новая услуга!</h4>
+                    <a class="news-small-btn" href="#">подробнее</a>
+                </div>
+            </div>
+            <a class="main-link" href="#">Читать все новости</a>
+            </div>
+        </section>
+
+
+        <!-- GALLERY - SECTION -->
+        <section class="gallery container">
+            <h2>Галерея работ</h2>
+            <div class="gallery__images-wrapper">
+                <div class="gallery__images">
+                    <div class="gallery__img-wrapper">
+                        <div class="gallery__img-shadow">
+                        </div>
+                        <a class="gallery__search_btn" href="./portfolio.html">
+                            <img src="./icons/search(+)white-big.svg" alt="#">
+                        </a>
+                        <img class="gallery-img" src="./images/gallery-img.png" alt="#">
+                    </div> <!-- gallery__img-wrapper -->
+                    <div class="gallery__img-wrapper">
+                        <div class="gallery__img-shadow">
+                        </div>
+                        <a class="gallery__search_btn" href="./portfolio.html">
+                            <img src="./icons/search(+)white-big.svg" alt="#">
+                        </a>
+                        <img class="gallery-img" src="./images/gallery-img.png" alt="#">
+                    </div> <!-- gallery__img-wrapper -->
+                    <div class="gallery__img-wrapper">
+                        <div class="gallery__img-shadow">
+                        </div>
+                        <a class="gallery__search_btn" href="./portfolio.html">
+                            <img src="./icons/search(+)white-big.svg" alt="#">
+                        </a>
+                        <img class="gallery-img" src="./images/gallery-img.png" alt="#">
+                    </div> <!-- gallery__img-wrapper -->
+                    <div class="gallery__img-wrapper">
+                        <div class="gallery__img-shadow">
+                        </div>
+                        <a class="gallery__search_btn" href="./portfolio.html">
+                            <img src="./icons/search(+)white-big.svg" alt="#">
+                        </a>
+                        <img class="gallery-img" src="./images/gallery-img.png" alt="#">
+                    </div> <!-- gallery__img-wrapper -->
+                    <div class="gallery__img-wrapper">
+                        <div class="gallery__img-shadow">
+                        </div>
+                        <a class="gallery__search_btn" href="./portfolio.html">
+                            <img src="./icons/search(+)white-big.svg" alt="#">
+                        </a>
+                        <img class="gallery-img" src="./images/gallery-img.png" alt="#">
+                    </div> <!-- gallery__img-wrapper -->
+                </div><!-- gallery__images -->
+            </div><!-- gallery__images-wrapper -->
+            <a class="main-link" href="./portfolio.html">Перейти в портфолио</a>
+        </section>
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__info-wrapper">
+                <div class="footer__logo">
+                    <a href="#"><img src="./icons/footer-logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="footer__phone">
+                    <a>Наш телефон:</a>
+                    <span>+7 910 360 63 92</span>
+                </div>
+                <div class="footer__adress">
+                    <a>Наш адрес:</a>
+                    <span>г. СТАРЫЙ ОСКОЛ, Проспект<br> АЛЕКСЕЯ УГАРОВА, 11, офис 21
+                    </span>
+                </div>
+                <div class="footer__email">
+                    <a>E-mail:</a>
+                    <span>info@viatekmedia.ru</span>
+                </div>
+                <div class="footer__social">
+                    <div class="footer__social-wrapper">
+                        <img class="footer__social_whatsapp" src="./icons/whatsapp-black.svg" alt="">
+                    </div>
+                    <div class="footer__social-wrapper">
+                        <img class="footer__social_telegramm" src="./icons/telega-black.svg" alt="">
+                    </div>
+                </div>
+            </div><!-- footer__info-wrapper -->
+            <hr class="footer__line">
+            <div class="copyright">
+                VIATEKSAMPLE. 2024 © Все права защищены
+            </div>
+        </div><!-- container footer__container -->
+    </footer>
+
+    <script defer src="./js/all.js"></script>
+</body>
+
+</html>

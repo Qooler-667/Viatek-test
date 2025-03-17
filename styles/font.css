@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "noto-sans";
+    src: url(../fonts/Noto_Sans/NotoSans-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: "futuris";
+    src: url(../fonts/Futuris/futuris.ttf);
+}
+
+@font-face {
+    font-family: "myriad-pro";
+    src: url(../fonts/Myriad_pro/MYRIADPRO-REGULAR.ttf);
+}
+
+body {
+    font-family: "noto-sans";
+    font-weight: normal;
+}

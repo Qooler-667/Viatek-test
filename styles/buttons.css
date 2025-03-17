@@ -1,0 +1,262 @@
+  .exit-btn:active>span::after,
+  .exit-btn:active>span {
+      background: #ff0000;
+  }
+
+  /* ..>>> HEADER - BTN <<<.. */
+  .loc-menu__btn {
+      color: var(--base-white);
+  }
+
+  .loc-menu__btn:hover {
+      color: aqua;
+  }
+
+  .loc-menu__btn:active {
+      color: rgb(0, 99, 180);
+  }
+
+  /* ..>>><<<.. */
+  /* ..>>> BURGER - BTN <<<.. */
+  .burger-btn {
+      padding: 20px 30px;
+  }
+
+  .burger-btn>span,
+  .burger-btn>span::after,
+  .burger-btn>span::before {
+      display: flex;
+      width: 20px;
+      height: 2px;
+      background: var(--base-white);
+      position: relative;
+  }
+
+  .burger-btn>span::after,
+  .burger-btn>span::before {
+      content: '';
+      position: absolute;
+      top: 6px;
+  }
+
+  .burger-btn>span::before {
+      top: -6px;
+  }
+
+  /* ..>>><<<.. */
+
+  /* ..>>> EXIT - BTN <<<.. */
+  .exit-btn {
+      display: flex;
+      width: 24px;
+      height: 24px;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .exit-btn>span,
+  .exit-btn>span::after {
+      display: flex;
+      width: 20px;
+      height: 3px;
+      background: var(--exit-color);
+      transform: rotate(45deg);
+  }
+
+  .exit-btn>span::after {
+      content: '';
+      transform: rotate(90deg);
+  }
+
+  #locMenu-btn:checked~.loc-menu__list-wrapper {
+      transform: scale(1) translate(80px, 200px);
+      visibility: visible;
+      opacity: 1;
+  }
+
+  #burger:checked~.burger-menu-wrapper {
+      transform: scale(1) translate(-100px, 230px);
+      visibility: visible;
+      opacity: 1;
+  }
+
+  .exit-btn:hover.exit-btn>span,
+  .exit-btn:hover.exit-btn>span::after {
+      width: 21px;
+      height: 3.5px;
+  }
+
+  /* details - btn - news - section */
+  .news-small-btn {
+      width: 104px;
+      height: 36px;
+      padding: 10px 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: var(--link-color);
+      border-radius: var(--bord10);
+      border: 1px solid var(--bord-color);
+      position: relative;
+  }
+
+  .news-small-btn::before {
+      content: 'Подробнее';
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: var(--bord10);
+      color: var(--base-white);
+      text-transform: uppercase;
+      font-weight: 500;
+      background: var(--bg-call-btn);
+      transition: opacity .3s ease-in-out;
+  }
+
+  .news-small-btn:hover::before {
+      opacity: 1;
+
+  }
+
+  /* ..>>><<<.. */
+
+  /* ..>>> CALL - BTN <<<.. */
+  .call-btn {
+      width: 254px;
+      height: 67px;
+      padding: 20px;
+      display: inline-block;
+      border-radius: var(--bord10);
+      font-size: 20px;
+      font-weight: 400;
+      color: var(--base-white);
+      background: var(--bg-call-btn);
+      box-shadow: 0 0 5px 1px rgb(255, 255, 255), 0 0 1px 2px rgba(0, 0, 0, 0.123);
+  }
+
+  .submit-btn:hover,
+  .call-btn:hover {
+      background: var(--hover-call-btn);
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+  }
+
+  .submit-btn:hover {
+      box-shadow: 0 0 5px .5px rgba(255, 255, 255, 0.7);
+  }
+
+  .call-btn:active {
+      background: #3cff00;
+  }
+
+  .submit-btn {
+      width: 254px;
+      height: 67px;
+      border-radius: 10px;
+      background: linear-gradient(90deg, #26b447 0%, #006943 100%);
+      padding: 20px;
+      border: none;
+      color: white;
+      font-size: 20px;
+      font-weight: 400;
+      box-shadow: 0 0 5px .5px rgb(255, 255, 255);
+      cursor: pointer;
+  }
+
+  /* ---------- */
+
+  /* ..>>> SERVICES-SECTION-BTN */
+  .services__img_btn {
+      width: 213px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      bottom: 30px;
+      left: 30px;
+      font-size: 15px;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: var(--base-white);
+      border-radius: var(--bord10);
+      background: var(--grey-order-btn);
+      opacity: 0;
+      visibility: hidden;
+      transition-property: opacity;
+      transition-delay: .2s, 0s;
+  }
+
+  .services__img_btn:hover {
+      background: linear-gradient(178deg, #26b447 0%, #229b32 50.39%, #3adc49 100%);
+  }
+
+  /* ---------- */
+
+  /* ..>>> MAIN-LINK <<<.. */
+  .main-link {
+      font-size: 15px;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-decoration: underline;
+      text-decoration-skip-ink: none;
+      color: var(--link-color);
+  }
+
+  /* ---------- */
+
+  /* ..>>> DETAILS-BTN <<<.. */
+  .detail-btn {
+      width: 151px;
+      height: 64px;
+      padding: 20px;
+      gap: 20px;
+      border-radius: var(--bord10);
+      border: 1px solid var(--base-white);
+      display: flex;
+      align-items: center;
+      font-size: 20px;
+      font-weight: 400;
+      position: relative;
+      background: transparent;
+      color: var(--base-white);
+      cursor: pointer;
+      transition: all 0.3s ease;
+  }
+
+  .detail-btn::after {
+      content: '';
+      width: 30px;
+      height: 30px;
+      background-image: url(../icons/arrow-right-green.svg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: absolute;
+      right: 15px;
+      top: 18px;
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 0s, opacity 0.3s ease;
+  }
+
+  .detail-btn:hover {
+      width: 195px;
+      background: var(--base-white);
+      color: var(--link-color);
+  }
+
+  .detail-btn:hover::after {
+      visibility: visible;
+      opacity: 1;
+      transition-delay: 0s;
+  }
+
+  /* ---------- */
